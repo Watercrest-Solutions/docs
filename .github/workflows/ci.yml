@@ -13,6 +13,4 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
-      - run: git checkout gh-pages
-      - run: git merge main
       - run: mkdocs gh-deploy --force
