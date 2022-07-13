@@ -1,0 +1,31 @@
+site_name: Gravity Creator Technologies
+nav:
+  - "Summary":
+      - "Introduction": "index.md"
+      - "How to Contribute": "CONTRIBUTE.md"
+  - "About":
+      - "About": about/about.md
+      - "Members": about/members.md
+theme:
+  name: material
+  # logo: assets/logo.svg
+  palette: 
+    # Palette toggle for light mode
+    - scheme: gct
+      # primary: purple
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      # primary: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - codehilite
+  - toc:
+      permalink: True
